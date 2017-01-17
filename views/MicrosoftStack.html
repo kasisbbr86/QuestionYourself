@@ -1,8 +1,9 @@
 <div>
     <div class="row">
         <div class="col-sm-12">
-            <a ui-sref=".CSharp11" class="btn btn-primary">CSharp11</a>
-            <a ui-sref=".CSharp2" class="btn btn-primary">CSharp2</a>
+            <div ng-repeat="state in ms.stateNames" style="float: left;">
+                <a ui-sref=".{{state.stateHref}}" class="btn btn-primary">{{state.stateLabel}}</a>
+            </div>
         </div>    
     </div>
     <div class="row">
