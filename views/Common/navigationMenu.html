@@ -1,0 +1,70 @@
+<!--Large Dropdown Menu: http://bootsnipp.com/snippets/featured/large-dropdown-menu-->
+<nav class="navbar navbar-default navbar-static">
+    <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" ui-sref="settings.home">
+            <img src="../wwwroot/images/logo.png" alt="QuestionYourself.in" title="QuestionYourself.in" style="width: 125px; height: 25px;"/>
+        </a>
+    </div>
+    <div class="collapse navbar-collapse js-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a ui-sref="settings.home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li class="dropdown dropdown-large">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-th-large" style="color: blue" ></span> Microsoft Stack <b class="caret"></b></a>		
+                <ul class="dropdown-menu dropdown-menu-large row">
+                    <li class="col-sm-4">
+                        <ul>
+                            <li class="dropdown-header">.Net Framework</li>
+                            <li><a href="#!/microsoft/csharp">C# (C Sharp)</a></li>
+                            <li><a href="#">Visual Basic</a></li>
+                            <li><a href="#">F#</a></li>
+                            <li><a href="#">J#</a></li>
+                            <li><a href="#"></a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Data Access</li>
+                            <li><a href="#">ADO.Net</a></li>
+                            <li><a href="#">Entity Framework</a></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-4">
+                        <ul>
+                            <li class="dropdown-header">Web Frameworks</li>
+                            <li><a href="#">Classic ASP</a></li>
+                            <li><a href="#">ASP.Net</a></li>
+                            <li><a href="#">ASP.Net MVC</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Web Components</li>
+                            <li><a href="#">Windows Services \ Click-Once Apps</a></li>
+                            <li><a href="#">Web Services \ WCF</a></li>
+                            <li><a href="#">WPF \ Silverlight</a></li>
+                            <li><a href="#">Workflow Foundation</a></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-4">
+                        <ul>
+                            <li class="dropdown-header">Much Better..</li>
+                            <li><a href="#">HTML 5</a></li>
+                            <li><a href="#">CSS 3</a></li>
+                            <li><a href="#">Javascript</a></li>
+                            <li><a href="#">TypeScript</a></li>
+                            <li class="dropdown-header">Other Frameworks</li>
+                            <li><a href="#">BootStrap</a></li>
+                            <li><a href="#">AngularJs 1.*</a></li>
+                            <li><a href="#">Angular 2 & Beyond</a></li>
+                        </ul>
+                    </li>
+                </ul>		
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-road"></span> The Next Big Thing</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a ui-sref="settings.contactus"><span class="glyphicon glyphicon-user" style="color:orange;"></span> Contact Us</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </div><!-- /.nav-collapse -->
+</nav>

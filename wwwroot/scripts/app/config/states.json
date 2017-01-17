@@ -1,0 +1,22 @@
+[{
+   "name": "settings.microsoft.CSharp11",
+    "url": "/cSharp11",
+    "parent": "settings.microsoft",
+    "abstract": false,
+     "views": [
+       {
+          "name": "",
+          "templateUrl": "../../../views/MicrosoftStack/CSharp11.html"
+      }
+  ]},
+  {
+   "name": "settings.microsoft.CSharp2",
+    "url": "/cSharp2",
+    "parent": "settings.microsoft",
+    "abstract": false,
+     "views": [
+       {
+          "name": "",
+          "templateUrl": "../../../views/MicrosoftStack/CSharp2.html"
+      }
+  ]}]

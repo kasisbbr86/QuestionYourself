@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="icon" href="../../favicon.ico">-->
+
+    <title>QuestionYourself.in: The portal to date around everyday insights of a techie!!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="wwwroot/styles/largeMenu.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="lib/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body ng-app="questionYourself">
+    <navigation-menu></navigation-menu>
+    <div>
+        <div class="container-fluid" style="min-height: 500px;">
+            <ui-view></ui-view>
+        </div>  
+        <!-- ToDo: The pages are not getting rotated. Need to verify. -->
+        <!--<home-carousel></home-carousel>-->
+    </div>
+        <!-- Bootstrap core JavaScript, App files
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="lib/jquery/jquery-1.11.1.min.js"></script>
+        <script src="lib/Bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <!--<script src="lib/ie10-viewport-bug-workaround.js"></script>-->
+        <script src="lib/angular.js"></script>
+        <script src="lib/angular-ui-router.js"></script>
+        <script src="wwwroot/scripts/app/questionYourself.module.js"></script>
+        <script src="wwwroot/scripts/app/directives/menu.directive.js"></script>    
+        <script src="wwwroot/scripts/app/directives/homecarousel.directive.js"></script>    
+        <script src="wwwroot/scripts/app/controllers/microsoft.controller.js"></script>    
+        <script src="wwwroot/scripts/app/providers/router.provider.js"></script>            
+        <script src="wwwroot/scripts/app/config/state.config.js"></script>                    
+</body>
+</html>
